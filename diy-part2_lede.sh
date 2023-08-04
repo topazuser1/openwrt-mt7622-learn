@@ -47,4 +47,4 @@ git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adg
 # 修改默认wifi名称ssid为AX6S
 sed -i 's/ssid=OpenWrt/ssid=AX6S/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # Modify default IP
-sed -i 's/192.168.1.1/172.16.2.11/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.1.1/172.16.2.11/g' package/base-files/files/bin/config_generate
